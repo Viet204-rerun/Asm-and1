@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ASMPh32598" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+         <item name="android:windowAnimationStyle" >@style/MyAnimation</item> </style>
+    <style name="MyAnimation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:activityOpenEnterAnimation">@anim/animation2</item>
+        <item name="android:activityCloseEnterAnimation">@anim/animation2</item>
+        <item name="android:activityOpenExitAnimation">@anim/animation2_false</item>
+        <item name="android:activityCloseExitAnimation">@anim/animation2_false</item></style>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_marginTop="150dp"
+    android:padding="10dp"
+    tools:context=".Asm.giaodien3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng bạn,"
+        android:textColor="#1880FD"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký tài khoản"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="29sp"
+            ></TextView>
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Nhập username"
+            android:background="@drawable/gach_chan"
+            android:paddingBottom="2dp"
+            android:paddingStart="20dp"
+            android:id="@+id/edt1"
+            ></EditText>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Nhập password"
+            android:background="@drawable/gach_chan"
+            android:paddingBottom="2dp"
+            android:paddingStart="20dp"
+            android:id="@+id/edt2"
+            ></EditText>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Nhập lại password"
+            android:background="@drawable/gach_chan"
+            android:paddingBottom="2dp"
+            android:paddingStart="20dp"
+            android:id="@+id/edt3"
+            ></EditText>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="ĐĂNG KÝ"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#01A3ED"
+            android:id="@+id/btn1"></Button>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="TRỞ VỀ"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#5D6467"
+            android:id="@+id/btn2"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center|top"
+    android:layout_marginTop="220dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asm.giaodien2">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng bạn đã trở lại,"
+        android:textStyle="bold"
+        android:textColor="#3D87F6"
+        android:textSize="19sp"></TextView>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng đăng nhập để tiếp tục"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập username"
+        android:onClick="v"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:background="@drawable/gach_chan"
+        android:id="@+id/edt1"></EditText>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập password"
+        android:background="@drawable/gach_chan"
+        android:textColor="@color/black"
+        android:paddingStart="20dp"
+        android:id="@+id/edt2"></EditText>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi nhớ tài khoản"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/chk1"></CheckBox>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#5CEC1E"
+            android:textSize="20sp"
+            android:id="@+id/btn1"
+            ></Button>
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:text="ĐĂNG KÝ"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#EC422B"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/btn2"
+            ></Button>
+    </LinearLayout>
+</LinearLayout>

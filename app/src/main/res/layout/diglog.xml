@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DC11BA">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma nhan vien"
+        android:textColor="@color/white"
+        android:background="@drawable/vienbutton3"
+        android:id="@+id/manv1"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ten nhan vien"
+        android:textColor="@color/white"
+        android:background="@drawable/vienbutton3"
+        android:id="@+id/tennv1"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phong ban"
+        android:textColor="@color/white"
+        android:background="@drawable/vienbutton3"
+        android:id="@+id/phongban1"></EditText>
+
+</LinearLayout>
